@@ -4,7 +4,7 @@ async function getRepositoryInfo() {
     
     console.log(response.headers);
     for (let [key, value] of response.headers) {
-      alert(`${key} = ${value}`);
+      console.log(`${key} = ${value}`);
     }
   } catch (error) {
     console.error(error);
